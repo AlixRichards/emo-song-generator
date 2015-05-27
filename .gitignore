@@ -1,0 +1,38 @@
+# Gitignore
+# Add files/folders below to ignore from source control
+
+# Extensions
+*.user
+*.obj
+*.pdb
+*.orig
+*.exe
+*.log
+*.DS_Store
+*.tmp
+*.7z
+*.zip
+*.bak
+*.nupkg
+*.dbmdl
+
+# Front-end
+.sass-cache/
+node_modules/
+
+# CSS
+dist/css/
+
+# JavaScript
+dist/js
+
+# Others
+sql/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project
+# add project specific ignores here

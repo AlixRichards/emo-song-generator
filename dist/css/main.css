@@ -1,5 +1,4 @@
-h1 {
-  color: green; }
-
-body {
-  color: pink; }
+.site-wrapper {
+  background-color: pink;
+  width: 200px;
+  height: 500px; }
