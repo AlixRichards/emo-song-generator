@@ -20,7 +20,7 @@ var rename = require('gulp-rename');
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-            baseDir: "dist/"
+            baseDir: ""
         }
     });
 });
@@ -34,8 +34,8 @@ gulp.task('sass', function() {
 
 // Concatenate & Minify JS
 gulp.task('js', function() {
-    return gulp.src('src/js/*.js')
-        .pipe(concat('js/all.js'))
+    return gulp.src('src/js/**/*.js')
+        .pipe(concat('all.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(rename('js/all.min.js'))
         .pipe(uglify())
